@@ -1,14 +1,9 @@
 import './App.css';
+import TelaLogin from './componentes/TelaLogin';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Start projeto
-        </p>
-      </header>
-    </div>
+      <TelaLogin />
   );
 }
 

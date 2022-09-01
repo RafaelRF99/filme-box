@@ -1,0 +1,9 @@
+.campo-texto input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+}
+
+.campo-texto label {
+    display: block;
+}
