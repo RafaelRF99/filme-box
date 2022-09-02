@@ -1,5 +1,5 @@
 import './TelaLogin.css'
-import Formulario from '../../componentes/TelaLogin/Formulario'
+import Formulario from '../../componentes/FormularioLogin'
 
 const TelaLogin = () => {
     return (
