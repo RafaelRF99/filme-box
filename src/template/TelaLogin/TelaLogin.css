@@ -1,0 +1,6 @@
+.back-login {
+    background-image: url("../../../public/imagens/tema-login.jpg");
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

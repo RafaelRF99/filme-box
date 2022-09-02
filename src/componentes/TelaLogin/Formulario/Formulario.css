@@ -1,9 +1,9 @@
-.campo-texto input {
+.background {
     box-sizing: border-box;
-    width: 100%;
-    padding: 20px;
-}
-
-.campo-texto label {
-    display: block;
+    background-color: #000;
+    max-width: 500px;
+    height: 100vh;
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(0,0,0,.7);
 }

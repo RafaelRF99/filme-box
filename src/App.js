@@ -1,5 +1,5 @@
 import './App.css';
-import TelaLogin from './componentes/TelaLogin';
+import TelaLogin from './template/TelaLogin'
 
 function App() {
   return (

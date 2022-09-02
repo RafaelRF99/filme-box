@@ -1,0 +1,36 @@
+/* TITULO */
+h2 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+/* TITULO */
+
+
+/* CAMPO DE TEXTO */
+.campo-texto {
+    text-align: start;
+}
+
+.campo-texto label {
+    margin-left: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.campo-texto input {
+    background-color: #FFF;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    border: none;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    font-size: 20px;
+    border-radius: 5px;
+    outline: 0;
+    margin: 5px 0 10px 0;
+}
+/* CAMPO DE TEXTO */
