@@ -1,15 +1,13 @@
-import './CampoTexto.css'
+import './CampoTextoCadastro.css'
 
-const CampoTexto = (props) => {
+const CampoTextoCadastro = (props) => {
     console.log(props)
     return (
         <section className="campo-texto">
-            <label>{props.labelEmail}</label>
-            <input type="text" placeholder={props.placeholder}/>
-            <label>{props.labelPass}</label>
-            <input type="password" placeholder={props.password}/>
+            <label>{props.label}</label>
+            <input type={props.labeltype} placeholder={props.placeholder}/>
         </section>
     );
 };
 
-export default CampoTexto;
+export default CampoTextoCadastro;

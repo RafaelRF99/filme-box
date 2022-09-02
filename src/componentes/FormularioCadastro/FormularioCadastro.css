@@ -1,0 +1,20 @@
+.background {
+    box-sizing: border-box;
+    background-color: #000;
+    max-width: 500px;
+    height: 100vh;
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(0,0,0,.7);
+}
+
+/* TITULO */
+.titulo {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 2px;
+    margin-bottom: 40px;
+}
+/* TITULO */

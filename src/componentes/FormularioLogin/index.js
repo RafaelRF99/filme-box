@@ -1,23 +1,23 @@
 import CampoTexto from '../CampoTexto';
 import Botao from '../Botao'
-import './Formulario.css'
+import './FormularioLogin.css'
 
 const aoSalvar = (evento) => {
     evento.preventDefault();
     console.log("Foi Submetido!")
 }
 
-const Formulario = () => {
+const FormularioLogin = () => {
     return (
         <section onSubmit={aoSalvar} className="background">
-            <h2>Tela de Login</h2>
+            <h2 className="titulo">Tela de Login</h2>
             <form>
-                <CampoTexto labelEmail="Email" labelPass="Senha"
-                placeholder="exemplo@gmail.com" password="Digite sua senha"/>
+                <CampoTexto label="Email" placeholder="exemplo@gmail.com" labeltype="email" />
+                <CampoTexto label="Senha" placeholder="Digite sua senha" labeltype="password" />
                 <Botao>Logar</Botao>
             </form>
         </section>
     )
 }
 
-export default Formulario;
+export default FormularioLogin;

@@ -1,9 +1,10 @@
+import FormularioCadastro from '../../componentes/FormularioCadastro';
 import './TelaCadastro.css'
 
 const TelaCadastro = () => {
     return (
         <div className="back-cadastro">
-            <div>Teste</div>
+            <FormularioCadastro />
         </div>
     )
 };

@@ -7,3 +7,12 @@
     text-align: center;
     background-color: rgba(0,0,0,.7);
 }
+
+/* TITULO */
+.titulo {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+/* TITULO */
