@@ -5,7 +5,7 @@
     height: 100vh;
     padding: 50px;
     text-align: center;
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(53, 53, 53, 0.7);
 }
 
 /* TITULO */
@@ -18,3 +18,17 @@
     margin-bottom: 40px;
 }
 /* TITULO */
+
+
+/* BOTAO CADASTRO */
+.link {
+    color: rgb(216, 213, 213);
+    margin-top: 20px;
+    width: 120px;
+}
+.link:hover {
+    cursor: pointer;
+    color: #FFF;
+    text-decoration: underline;
+}
+/* BOTAO CADASTRO */

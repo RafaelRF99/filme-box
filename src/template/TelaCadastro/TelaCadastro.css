@@ -1,8 +1,7 @@
 .back-cadastro {
-    background-image: url("../../../public/imagens/tema-login.jpg");
-    background-position: left top;
-    background-size: cover;
+    background-image: url(../../../public/imagens/fundo-loginCadastro.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
 }

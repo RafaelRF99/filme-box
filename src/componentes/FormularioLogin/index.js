@@ -22,6 +22,7 @@ const FormularioLogin = () => {
                 <CampoTexto label="Senha" placeholder="Digite sua senha" labeltype="password"
                     valor={senha} aoAlterado={valor => setSenha(valor)} />
                 <Botao>Logar</Botao>
+                <div className="cadastro">Cadastre-se</div>
             </form>
         </section>
     )

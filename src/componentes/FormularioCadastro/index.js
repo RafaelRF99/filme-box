@@ -24,6 +24,7 @@ const FormularioCadastro = () => {
                 <CampoTexto label="Senha" placeholder="Digite sua senha" labeltype="password" 
                 valor={senha} aoAlterado={valor => setSenha(valor)}/>
                 <Botao>Cadastrar</Botao>
+                <div className="link">Possui conta?</div>
             </form>
         </section>
     );

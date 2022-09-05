@@ -5,8 +5,9 @@
     height: 100vh;
     padding: 50px;
     text-align: center;
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(53, 53, 53, 0.7);
 }
+
 
 /* TITULO */
 .titulo {
@@ -16,3 +17,17 @@
     text-shadow: 2px 2px 4px #000000;
 }
 /* TITULO */
+
+
+/* BOTAO CADASTRO */
+.cadastro {
+    color: rgb(216, 213, 213);
+    margin-top: 20px;
+    width: 90px;
+}
+.cadastro:hover {
+    cursor: pointer;
+    color: #FFF;
+    text-decoration: underline;
+}
+/* BOTAO CADASTRO */
