@@ -1,9 +1,7 @@
+import './FormularioLogin.css'
 import CampoTexto from '../CampoTexto';
 import Botao from '../Botao'
-import './FormularioLogin.css'
 import { useState } from 'react';
-
-
 
 const FormularioLogin = () => {
 

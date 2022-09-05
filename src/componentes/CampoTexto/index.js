@@ -1,6 +1,6 @@
 import './CampoTexto.css'
 
-const CampoTextoCadastro = (props) => {
+const CampoTexto = (props) => {
 
     const aoDigitado = (evento) => {
         props.aoAlterado(evento.target.value);
@@ -14,4 +14,4 @@ const CampoTextoCadastro = (props) => {
     );
 };
 
-export default CampoTextoCadastro;
+export default CampoTexto;
