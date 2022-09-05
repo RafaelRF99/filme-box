@@ -1,11 +1,15 @@
-import './CampoTextoCadastro.css'
+import './CampoTexto.css'
 
 const CampoTextoCadastro = (props) => {
-    console.log(props)
+
+    const aoDigitado = (evento) => {
+        props.aoAlterado(evento.target.value);
+    }
+    
     return (
         <section className="campo-texto">
             <label>{props.label}</label>
-            <input type={props.labeltype} placeholder={props.placeholder}/>
+            <input value={props.valor} onChange={aoDigitado} type={props.labeltype} placeholder={props.placeholder}/>
         </section>
     );
 };
