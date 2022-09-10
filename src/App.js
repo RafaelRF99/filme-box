@@ -1,15 +1,26 @@
 import './App.css';
+import TelaPrincipal from './template/TelaPrincipal';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Start projeto
-        </p>
-      </header>
+       <TelaPrincipal/>
+        
+        
+      
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+.BotaoCadastrar {
+
+    padding: 06px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight:lighter;
+    font: 10px; 
+    background-color: black;
+    border-radius:20px;
+    position: fixed;
+    right: 98px;
+    bottom: 5%;
+    border-color: aqua;
+    color: beige;
+
+}
+
+
+    
+    
+

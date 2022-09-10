@@ -1,0 +1,9 @@
+.tela {
+    background-image: url(../../../public/imagem/Filme2.png);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
